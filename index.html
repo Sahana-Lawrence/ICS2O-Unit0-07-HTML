@@ -2,13 +2,54 @@
 <html lang="en-ca">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="My Webpage, With Local Image">
+    <meta name="description" content="My Webpage, With ID">
     <meta name="keywords" content="MTHS, Website">
     <meta name="author" content="Sahana Lawrence">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage, With Image</title>
+    <title>My Seventh Webpage, With ID</title>
+    <style>
+      #myHeader {
+        background-color: slateblue;
+        color: white;
+        padding: 40px;
+        text-align: center;
+        }
+      .country {
+        background-color: lightblue;
+        color: white;
+        padding: 10px;
+        }
+    </style>
   </head>
   <body>
-    
+    <h1 id="myHeader">Hello, World!</h1>
+    <table style="width:100%;text-align:center;">
+      <tr>
+        <th>Country</th>
+        <th>Main Attraction</th>
+        <th>Ranking by GDP per capita</th>
+      </tr>
+      <tr>
+        <td>England</td>
+        <td>Stonehenge</td>
+        <td>39</td>
+      </tr>
+      <tr>
+        <td>Ireland</td>
+        <td>Cliffs of Moher</td>
+        <td>10</td>
+      </tr>
+    </table>
+    <h2 class="country">England</h2>
+    <p style="color:DodgerBlue;">London is the capital of England.</p>
+    <h2 class="country">Ireland</h2>
+    <p style="color:DodgerBlue;">Natural beauty is a constant in Ireland.</p>
+    <br>
+    <div>
+      <images>
+        <img src="./images/stonehenge.jpg" alt="Stonehenge">
+        <img src="./images/images.jpg" alt="Cliffs of Moher" style="width:296px;height:202.5px;">
+      </images>
+    </div>
   </body>
 </html>
